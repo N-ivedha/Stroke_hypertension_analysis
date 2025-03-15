@@ -1,4 +1,4 @@
-# my-project
+# Hypertension data analysis
 
 ## Project Overview
  This project analyzes hypertension trends using Excel and R, focusing on age, BMI, and blood pressure to identify risk factors and build a simple predictive model.
