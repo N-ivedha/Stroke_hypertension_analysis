@@ -27,6 +27,6 @@ Hypertension-Data-Analysis/
 
 ## How to Access the Dataset
 1. Click on the **"data"** folder in this repository.
-2. Download `hypertension_data.xlsx` for raw data.
-3. Use `hypertension_cleaned.xlsx` after data preprocessing.
+2. Download `hypertension_data` for raw data.
+3. Use `hypertension_cleaned` after data preprocessing.
 
