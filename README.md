@@ -9,7 +9,7 @@
 - **Filename**: `hypertension_data.xlsx`
 - **Source**: [Kaggle - Hypertension Dataset](https://www.kaggle.com/)  
 - **License**: CC0 (Public Domain) – Free for use without restrictions.
-- **Contents**: Patient demographics, BMI, blood pressure, hypertension status, and other health metrics.
+- **Contents**: Patient demographics, BMI, hypertension status, stroke and other health metrics.
 
 ----
 
@@ -27,6 +27,7 @@ Hypertension-Data-Analysis/
 
 ## How to Access the Dataset
 1. Click on the **"data"** folder in this repository.
-2. Download `hypertension_data` for raw data.
-3. Use `hypertension_cleaned` after data preprocessing.
+2. Download Stroke_Hypertension_Analysis.xlsx for the processed dataset.
+3. This file contains cleaned data, analysis, and visualizations.
+   
 
