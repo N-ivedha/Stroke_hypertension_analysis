@@ -1,33 +1,83 @@
-# Hypertension data analysis
+# Stroke & Hypertension Data Analysis
 
-## Project Overview
- This project analyzes hypertension trends using Excel and R, focusing on age, BMI, and blood pressure to identify risk factors and build a simple predictive model.
+## Project Overview  
+This project analyzes stroke and hypertension trends using **Excel and R**, focusing on **age, BMI, blood pressure, and lifestyle factors** to identify risk factors and build a **predictive model**.
 
- ----
+---
 
- ## Dataset Information
-- **Filename**: `hypertension_data.xlsx`
+## Dataset Information  
+- **Filename**: `stroke_data.csv`  
 - **Source**: [Kaggle - Hypertension Dataset](https://www.kaggle.com/)  
-- **License**: CC0 (Public Domain) – Free for use without restrictions.
-- **Contents**: Patient demographics, BMI, hypertension status, stroke and other health metrics.
+- **License**: CC0 (Public Domain) – Free for use without restrictions.  
+- **Contents**: Patient demographics, BMI, hypertension status, stroke history, and other health metrics.  
 
-----
+---
 
-## Repository Structure
-Hypertension-Data-Analysis/
+## Key Analyses Conducted  
+### **Excel Analysis**  
+- **Data Cleaning** (handling missing values, duplicates)  
+- **Pivot Tables** for trends in stroke & hypertension  
+- **Descriptive Statistics** (mean, median, mode)  
+- **Charts & Graphs** for visualization  
+
+### **R Analysis**  
+- **T-tests & Boxplots**: Comparing BMI & Glucose levels  
+- **Chi-Square Test**: Association between hypertension, smoking, and stroke  
+- **Regression Model**: Predicting glucose levels  
+- **Data Visualization**: Stacked bar plots & distribution analysis  
+
+---
+
+## Repository Structure  
+Stroke_Hypertension_Analysis/
 │-- data/
-│   ├── hypertension_data.xlsx  # Raw dataset
-│   ├── hypertension_cleaned.xlsx  # Processed dataset
+│   ├── hypertension_data.xlsx        # Raw dataset
+│   ├── hypertension_cleaned.xlsx     # Processed dataset
 │-- notebooks/
-│   ├── analysis_in_r.Rmd  # R analysis
-│   ├── analysis_in_excel.xlsx  # Excel analysis
-│-- README.md
+│   ├── analysis_in_r.Rmd             # R analysis
+│   ├── analysis_in_excel.xlsx        # Excel analysis
+│-- plots/
+│   ├── boxplot_glucose.png           # Boxplot for glucose levels
+│   ├── chi_square_plot.png           # Chi-square test visualization
+│-- README.md                         # Project documentation
 
-----
 
-## How to Access the Dataset
-1. Click on the **"data"** folder in this repository.
-2. Download Stroke_Hypertension_Analysis.xlsx for the processed dataset.
-3. This file contains cleaned data, analysis, and visualizations.
-   
+---
+
+## **Final Insights & Findings**  
+🔹 **Hypertensive patients** had significantly higher **glucose levels** (p < 2.2e-16).  
+🔹 **BMI** & **Smoking** showed a strong association with stroke occurrence.  
+🔹 **Age** was not a strong predictor in our regression model.  
+🔹 **Chi-Square Tests** confirmed hypertension as a major risk factor.  
+
+---
+
+##  **How to Run the Analysis**  
+
+### **Using Excel**  
+1️⃣ Open `notebooks/analysis_in_excel.xlsx`  
+2️⃣ Explore **Pivot Tables, Graphs & Summary Stats**  
+
+### **Using R**  
+1️⃣ Install required R packages (`dplyr`, `ggplot2`, etc.)  
+2️⃣ Run `notebooks/analysis_in_r.Rmd`  
+
+---
+
+##  **Next Steps**  
+🔹 Enhance the model with **logistic regression**  
+🔹 Add **more visualizations** (correlation heatmaps, trends)  
+🔹 Integrate **machine learning models** for better predictions  
+
+---
+
+ **Contributors**: *Nivedha V*  
+ **Check out the repository**: [GitHub Link](https://github.com/your-username/stroke_analysis)  
+
+---
+
+ 
+
+
+
 
