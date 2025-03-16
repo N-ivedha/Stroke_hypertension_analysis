@@ -72,7 +72,7 @@ Stroke_Hypertension_Analysis/
 ---
 
  **Contributors**: *Nivedha V*  
- **Check out the repository**: [GitHub Link](https://github.com/your-username/stroke_analysis)  
+ **Check out the repository**: [GitHub Link](https://github.com/N-ivedha/Stroke_hypertension_analysis)  
 
 ---
 
