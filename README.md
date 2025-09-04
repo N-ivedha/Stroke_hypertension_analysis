@@ -51,6 +51,14 @@ Stroke_Hypertension_Analysis/
 🔹 **Chi-Square Tests** confirmed hypertension as a major risk factor.  
 
 ---
+## **Power BI Dashboard
+This project now includes an interactive Power BI dashboard with:
+
+- Pie Chart: Count of strokes by hypertension status  
+- Clustered Column Chart: Stroke counts split by hypertension (clear visual association)  
+- Stacked Bar Chart: Stroke count by BMI category and smoking status  
+- Card: Chi-Square test result (p < 0.001, significant association)
+
 
 ##  **How to Run the Analysis**  
 
